@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Image } from 'react-native';
-import  MapView, { Marker } from 'react-native-maps';
+import { StyleSheet, Image, View, Text } from 'react-native';
+import  MapView, { Marker, Callout } from 'react-native-maps';
 import { requestPermissionsAsync, getCurrentPositionAsync } from 'expo-location';
 
 
@@ -38,6 +38,14 @@ function Main() {
     <MapView initialRegion={currentRegion} style={styles.map}>
         <Marker coordinate={currentRegion} >
             <Image style={styles.avatar} source={{ uri: 'https://avatars1.githubusercontent.com/u/42756551?s=460&u=e4475ddca2f9c544b67ea619c636d50512d54be0&v=4' }} />
+        
+            <Callout>
+                <View style={styles.callout}>
+                    <Text style={styles.devName}>Ricardo Carvalho Santos</Text>
+                    <Text style={styles.devBio}>Bom dia </Text>
+                    <Text style={styles.devTechs}>ReactJS, React Native, Node</Text>
+                </View>
+            </Callout>
         </Marker>
     </MapView>
     );
