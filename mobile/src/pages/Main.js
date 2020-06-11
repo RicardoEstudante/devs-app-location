@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Image, View, Text } from 'react-native';
+import { StyleSheet, Image, View, Text, TextInput } from 'react-native';
 import  MapView, { Marker, Callout } from 'react-native-maps';
 import { requestPermissionsAsync, getCurrentPositionAsync } from 'expo-location';
 
@@ -44,7 +44,7 @@ function Main({ navigation }) {
             }}>
                 <View style={styles.callout}>
                     <Text style={styles.devName}>Ricardo Carvalho Santos</Text>
-                    <Text style={styles.devBio}>Bom dia </Text>
+                    <Text style={styles.devBio}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Text>
                     <Text style={styles.devTechs}>ReactJS, React Native, Node</Text>
                 </View>
             </Callout>
