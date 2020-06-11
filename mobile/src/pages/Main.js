@@ -34,10 +34,10 @@ function Main() {
         return null;
     }
 
-    return <MapView initialRegion={currentRegion} style={StyleSheet.map}/>
+    return <MapView initialRegion={currentRegion} style={styles.map}/>
 }
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     map: {
          flex: 1
     },
