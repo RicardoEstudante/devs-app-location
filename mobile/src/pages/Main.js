@@ -4,7 +4,7 @@ import  MapView, { Marker, Callout } from 'react-native-maps';
 import { requestPermissionsAsync, getCurrentPositionAsync } from 'expo-location';
 
 
-function Main() {
+function Main({ navigation }) {
     const [currentRegion, setCurrentRegion] = useState(null);
     // pegando a localização do usuario caso for permitido
     useEffect(() => {
@@ -39,7 +39,9 @@ function Main() {
         <Marker coordinate={currentRegion} >
             <Image style={styles.avatar} source={{ uri: 'https://avatars1.githubusercontent.com/u/42756551?s=460&u=e4475ddca2f9c544b67ea619c636d50512d54be0&v=4' }} />
         
-            <Callout>
+            <Callout onPress={() => {
+                navigation.navigate('Profile', { github_username: 'RicardoEstudante' });
+            }}>
                 <View style={styles.callout}>
                     <Text style={styles.devName}>Ricardo Carvalho Santos</Text>
                     <Text style={styles.devBio}>Bom dia </Text>
@@ -62,6 +64,20 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         borderWidth: 4,
         borderColor: '#FFF',
+    },
+
+    callout: {
+        width: 250,
+    },
+    
+    devName: {
+        fontWeight: 'bold',
+        fontSize: 16,
+    },
+
+    devBio: {
+        color: '#666',
+        marginTop: 5,
     }
 })
 
