@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Image, View, Text, TextInput } from 'react-native';
+import { StyleSheet, Image, View, Text, TextInput, TouchableOpacity } from 'react-native';
 import  MapView, { Marker, Callout } from 'react-native-maps';
 import { requestPermissionsAsync, getCurrentPositionAsync } from 'expo-location';
-
+import { MaterialIcons } from '@expo/vector-icons';
 
 function Main({ navigation }) {
     const [currentRegion, setCurrentRegion] = useState(null);
@@ -35,21 +35,37 @@ function Main({ navigation }) {
     }
 
     return (
-    <MapView initialRegion={currentRegion} style={styles.map}>
-        <Marker coordinate={currentRegion} >
-            <Image style={styles.avatar} source={{ uri: 'https://avatars1.githubusercontent.com/u/42756551?s=460&u=e4475ddca2f9c544b67ea619c636d50512d54be0&v=4' }} />
-        
-            <Callout onPress={() => {
-                navigation.navigate('Profile', { github_username: 'RicardoEstudante' });
-            }}>
-                <View style={styles.callout}>
-                    <Text style={styles.devName}>Ricardo Carvalho Santos</Text>
-                    <Text style={styles.devBio}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Text>
-                    <Text style={styles.devTechs}>ReactJS, React Native, Node</Text>
-                </View>
-            </Callout>
-        </Marker>
-    </MapView>
+    <>
+        <MapView initialRegion={currentRegion} style={styles.map}>
+            <Marker coordinate={currentRegion} >
+                <Image style={styles.avatar} source={{ uri: 'https://avatars1.githubusercontent.com/u/42756551?s=460&u=e4475ddca2f9c544b67ea619c636d50512d54be0&v=4' }} />
+            
+                <Callout onPress={() => {
+                    navigation.navigate('Profile', { github_username: 'RicardoEstudante' });
+                }}>
+                    <View style={styles.callout}>
+                        <Text style={styles.devName}>Ricardo Carvalho Santos</Text>
+                        <Text style={styles.devBio}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</Text>
+                        <Text style={styles.devTechs}>ReactJS, React Native, Node</Text>
+                    </View>
+                </Callout>
+            </Marker>
+        </MapView>
+
+        <View style={styles.searchForm}>
+            <TextInput
+                style={styles.searchInput}
+                placeholder="Buscar"
+                placeholderTextColor="#999"
+                autoCapitalize="words"
+                autoCorrect={false}
+            />
+
+            <TouchableOpacity onPress={() => {}} style={styles.loadButton}>
+                <MaterialIcons name="my-location" size={20} color='#FFF'/>
+            </TouchableOpacity>
+        </View>
+    </>
     );
 }
 
