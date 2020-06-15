@@ -1,8 +1,6 @@
-[![Contributors][contributors-shield]][contributors-url]
-
-  <h2 align="center"> 
+  <h1 align="center"> 
     DevLocation
-  </h2>
+  </h1>
 
 <p align="center">	
   <a href="https://www.linkedin.com/in/ricardo-carvalho-ba865a123/">
