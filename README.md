@@ -6,7 +6,7 @@
 
 <p align="center">	
   <a href="https://www.linkedin.com/in/ricardo-carvalho-ba865a123/">
-    <img alt="Made by Ricardo" src="https://img.shields.io/badge/made%20by-Ricardo-%2304D361">
+    <img alt="Made by Ricardo" src="https://img.shields.io/badge/Made%20by-Ricardo-%2304D361">
   </a> 
 </p>
 
@@ -15,12 +15,12 @@
   <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Contribuir">Como Contribuir</a>
+  <a href="#Como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;
+
 </p>
 
 
-## 💻 Projeto
+## 💻  Projeto
 
 A ideia consiste em uma plataforma mobile para Android e web, 
 na qual tem a finalidade de promover o networking entre desenvolvedores de determinadas regiões,
@@ -36,11 +36,11 @@ ou até mesmo conectar empresas em buscas de novos colaboradores com os desenvol
  Este projeto foi desenvolvido usando as tecnologias
 
 - [Nodejs](https://nodejs.org/en/download/)
-- [javascript]
-- [Mongo]
-- [React]
-- [React-Native]
-- [Expo]
+- [javascript](https://devdocs.io/javascript/)
+- [Mongo](https://www.mongodb.com)
+- [React](https://pt-br.reactjs.org)
+- [React-Native](https://reactnative.dev)
+- [Expo](https://expo.io)
 
 ## Como usar
 
@@ -107,12 +107,4 @@ $ yarn start
 
 # Expo vai abrir, você deve escanear o QRCODE que aparecerá em seu terminal ou na pagina do Expo.
 
-```
-
-## Contribuir
-
-##### **Para o nome dos arquivos, deve ser usado esse padrão:**
-
-`trab_shigueo_23-03v1` |
-**Nome_do_arquivo**_**dd-mm**_v(Nº da versão do dia)
 
