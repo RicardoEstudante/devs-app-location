@@ -16,11 +16,10 @@
   <a href="#Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;
-
 </p>
 
 
-## Projeto 💻
+## Projeto
 
 A ideia consiste em uma plataforma mobile para Android e web, 
 na qual tem a finalidade de promover o networking entre desenvolvedores de determinadas regiões,
