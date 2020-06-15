@@ -19,7 +19,7 @@
 </p>
 
 
-## Projeto
+## Projeto 💻
 
 A ideia consiste em uma plataforma mobile para Android e web, 
 na qual tem a finalidade de promover o networking entre desenvolvedores de determinadas regiões,
