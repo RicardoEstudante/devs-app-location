@@ -113,7 +113,7 @@ function Main({ navigation }) {
             />
 
             <TouchableOpacity onPress={loadDevs} style={styles.loadButton}>
-                <MaterialIcons name="my-location" size={20} color='#FFF'/>
+                <MaterialIcons name="search" size={20} color='#FFF'/>
             </TouchableOpacity>
         </View>
     </>
@@ -164,6 +164,7 @@ const styles = StyleSheet.create({
         flex: 1,
         height: 50,
         backgroundColor: '#FFF',
+        fontWeight: 'bold',
         color: '#333',
         borderRadius: 25,
         paddingHorizontal: 20,
