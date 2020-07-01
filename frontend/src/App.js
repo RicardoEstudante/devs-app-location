@@ -11,13 +11,11 @@ import DevForm from "./components/DevForm";
 
 // Componente: Bloco isolado de HTML, CSS, e JS,  o qual não interfere no restante da aplicação
 // Propriedade: Informações que um componente PAI passa para o componente FILHO
-// Estado: Infomrações mantidas pelo componente (Lembrar: Imutabilidade)
+// Estado: Informações mantidas pelo componente (Lembrar: Imutabilidade)
 
 function App() {
   const [devs, setDevs] = useState([]);
   
-  
-
   useEffect(() => {
     async function loadDevs() {
       const response = await api.get('/devs');
@@ -34,12 +32,15 @@ function App() {
   }
 
   return (
+    <>
       <div id="app">
         <aside>
           <strong>Cadastrar</strong>
           <DevForm onSubmit={handleAddDev}/>
         </aside>
 
+      </div>
+      <div id="list">
         <main>
           <ul>
             {devs.map(dev => (
@@ -48,6 +49,7 @@ function App() {
           </ul>
         </main>
       </div>
+      </>
   );
 }
 

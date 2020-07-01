@@ -40,7 +40,7 @@ function DevForm({ onSubmit }) {
   }
 
   return(
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>  
       <div className="input-block">
         <label htmlFor="github_username">Usuário do Github</label>
         <input
@@ -49,6 +49,26 @@ function DevForm({ onSubmit }) {
           required
           value={github_username}
           onChange={e => setGithubUsername(e.target.value)}
+        />
+      </div>
+
+
+      <div className="input-block">
+        <label htmlFor="">Senha</label>
+        <input
+          name=""
+          id=""
+          value={()=>{}}
+          onChange={()=>{}}
+        />
+      </div>
+      <div className="input-block">
+        <label htmlFor="">Senha</label>
+        <input
+          name=""
+          id=""
+          value={()=>{}}
+          onChange={()=>{}}
         />
       </div>
 
