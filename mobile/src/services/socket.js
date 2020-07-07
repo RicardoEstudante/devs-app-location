@@ -1,6 +1,6 @@
 import socketio from 'socket.io-client';
 
-const socket = socketio('http://192.168.1.2:3333', {
+const socket = socketio('https://dev-location-backend.herokuapp.com', {
     autoConnect: false,
 });
 

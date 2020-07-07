@@ -1,9 +1,8 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "Location",
     "slug": "mobile",
     "platforms": [
-      "ios",
       "android",
       "web"
     ],
@@ -15,14 +14,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "android": {
+      "package": "com.location.test",
+      "versionCode": 1
+    },
+
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+    ]
   }
 }
