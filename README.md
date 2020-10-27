@@ -1,107 +1,72 @@
-  <h1 align="center"> 
-    DevLocation
-  </h1>
+<h1 align="center">
+    <img alt="DevRadar" title="#delicinha" src="./img/devradar.svg" width="250px" />
+</h1>
 
-<p align="center">	
-  <a href="https://www.linkedin.com/in/ricardo-carvalho-ba865a123/">
-    <img alt="Made by Ricardo" src="https://img.shields.io/badge/Made%20by-Ricardo-%2304D361">
-  </a> 
+<h4 align="center">
+  🚀 Semana OmniStack 10.0
+</h4>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Rocketseat/semana-omnistack-10">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Rocketseat/semana-omnistack-10">
+  
+  <a href="https://github.com/Rocketseat/semana-omnistack-10/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Rocketseat/semana-omnistack-10">
+  </a>
+
+  <a href="https://github.com/Rocketseat/semana-omnistack-10/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Rocketseat/semana-omnistack-10">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
-
 
 <p align="center">
-  <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Como-usar">Como Usar</a>&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
+<br>
 
-## Projeto 💻
+## :rocket: Tecnologias
 
-A ideia consiste em uma plataforma mobile para Android e web, 
-na qual tem a finalidade de promover o networking entre desenvolvedores de determinadas regiões,
-ou até mesmo conectar empresas em buscas de novos colaboradores com os desenvolvedores de sua região.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Layout
-<div align="center" >
-  <img width=360px height=640px src="./Prototipo.jpeg"/>
-</div>
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
-## Tecnologias
- 
- Este projeto foi desenvolvido usando as tecnologias
+## 💻 Projeto
 
-- [Nodejs](https://nodejs.org/en/download/)
-- [javascript](https://devdocs.io/javascript/)
-- [Mongo](https://www.mongodb.com)
-- [React](https://pt-br.reactjs.org)
-- [React-Native](https://reactnative.dev)
-- [Expo](https://expo.io)
+O DevRadar é um projeto que visa conectar desenvolvedores próximos a você que trabalham com as mesmas tecnologias.
 
-## Como usar
+## 🔖 Layout
+---
+<p align="center">
+  <img alt="Frontend" src="./img/devradar.png" width="100%">
+</p>
 
- Para clonar esse repositório você deve ter [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/download/) + [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#windows-stable) instalado em seu computador.
+Você pode baixar o layout do projeto no formato `.sketch` através [desse link](.github/DevRadar.sketch).
 
-Abra o seu terminal e digite:
+Para abrir o arquivo no formato `.sketch` em qualquer sistema operacional utilize a ferramenta [Figma](https://figma.com).
 
-### Instalar API 
+## 🤔 Como contribuir
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/LucasAmaral42/ies-301.git
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-# vá para o repositório
-$ cd es-301/server
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-# instale as dependençias
-$ yarn install
+## :memo: Licença
 
-# rode Migrates
-$ yarn knex:migrate
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-# Run Seeds
-$ yarn knex:seed
+---
 
-# Start server
-$ yarn dev
-
-# rodando na porta 3333
-```
-
-### Instalando Front-end
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/LucasAmaral42/ies-301.git
-
-# vá para o repositório
-$ cd ies-301/web
-
-# instale as dependençias
-$ yarn install
-
-# Run
-$ yarn start
-
-# rodando na porta 3000
-```
-
-### Instalando Mobile
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/LucasAmaral42/ies-301.git
-
-# vá para o repositório
-$ cd ies-301/mobile
-
-# instale as dependençias
-$ yarn install
-
-# Run
-$ yarn start
-
-# Expo vai abrir, você deve escanear o QRCODE que aparecerá em seu terminal ou na pagina do Expo.
-
-
+Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
